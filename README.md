@@ -1,8 +1,36 @@
-# React + Vite
+# 🚀 Personal Portfolio Website  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This project showcases my work, skills, and experiences in web development and IoT.  
 
-Currently, two official plugins are available:
+## 🌟 Live Demo  
+🔗 [View Live Portfolio](https://yourportfolio.com) *(Update with your actual link)*  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 About the Project  
+This portfolio website is built to highlight my projects, skills, and professional background. It includes interactive animations, a responsive design, and smooth user experience.  
+
+## 🎯 Features  
+✅ Fully responsive design  
+✅ Interactive animations with Framer Motion  
+✅ Dark mode support (if applicable)  
+✅ Project showcase with details  
+✅ Contact form with email integration  
+✅ Social media links  
+
+## 🛠️ Technologies Used  
+- **Frontend:** React.js, Tailwind CSS, Framer Motion  
+- **Backend:** Node.js (for future enhancements)  
+- **Hosting:** Vercel / Netlify (Update accordingly)  
+- **Version Control:** Git & GitHub  
+
+## 📂 Folder Structure  
+📦 portfolio
+├── 📁 src
+│ ├── 📁 assets → Images & icons
+│ ├── 📁 components → Navbar, Footer, About, Projects, etc.
+│ ├── 📁 pages → Different sections of the website
+│ ├── 📁 constants → Static data (projects, contacts, etc.)
+│ ├── App.js → Main component
+│ ├── index.js → Entry point
+├── 📄 README.md → This file
+├── 📄 package.json → Dependencies
+└── 📄 .gitignore → Ignored files
