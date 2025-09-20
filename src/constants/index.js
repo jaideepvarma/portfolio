@@ -1,6 +1,8 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.png";
+; // replace with actual path and file name
+
 
 
 export const HERO_CONTENT = `
@@ -37,41 +39,48 @@ export const EDUCATION = [
 ];
 
 
+export const EXPERIENCE = [
+  {
+    year: "June 2025 - August 2025",
+    role: "IIoT Intern",
+    company: "DIZIAutomation",
+    description: "Designed and implemented real-time data flow systems for industrial automation using Node-RED, MQTT, and Modbus protocols. Built interactive dashboards to visualize live sensor data, supporting performance monitoring and anomaly detection.",
+    technologies: ["Node-RED", "MQTT", "Modbus"],
+    
+  },
+  {
+    year: "June 2025 - July 2025",
+    role: "Full Stack Developer Intern",
+    company: "Laneway India",
+    description: "Built a travel recommendation platform with a personalized AI-based itinerary planner and an integrated RAG chatbot for location-aware trip planning. Developed a user interface that streamlined work and boosted efficiency by 50%.",
+    technologies: ["React.js", "Node.js", "Express.js"],
+   
+  }
+];
+
+
 
 export const PROJECTS = [
   {
-    title: "IOT based inventory management",
+    title: "IoT-Based Inventory Alert System",
     image: project1,
-    description:
-    `The IoT-Based Inventory Alert System is designed to monitor the stock levels of consumables like ice cream and
-    chocolate. Using ultrasonic sensors connected to ESP32/ESP8266 microcontrollers, the system tracks inventory
-    in real-time and sends automated low-stock alerts. The data is processed and transmitted via Wi-Fi, ensuring
-    seamless communication. When stock levels drop below a predefined threshold, email notifications are sent
-    using the SMTP Protocol through the ESPMailClient library, ensuring timely replenishment and minimizing stock
-    outages`,
-    technologies: [ "ESP32/ESP8266, C++ (Arduino IDE) Ultrasonic Sensors, Wi-Fi, SMTP Protocol,ESPMailClient Library."],
+    description: `Engineered an IoT-based system to monitor inventory levels and send automated low-stock alerts using ESP-based microcontrollers. Reduced stockouts by 60% through real-time alerts via SMTP and ESPMailClient. Enabled 24/7 monitoring using ESP32/ESP8266 with ultrasonic sensors and Wi-Fi. Achieved sub-2s refresh latency with optimized sensor logic in C (Arduino IDE).`,
+    technologies: ["ESP32/ESP8266", "C (Arduino IDE)", "Ultrasonic Sensors", "Wi-Fi", "SMTP", "ESPMailClient"]
   },
   {
     title: "Handy Connect",
     image: project2,
-    description:
-      `HandyConnect is a platform that connects users with skilled professionals for home utility services 
-    such as plumbing, electrical work, and carpentry. The platform provides a user-friendly interface built with React.js, 
-    enabling users to easily browse and book services. The backend, developed with Node.js and Express.js, ensures secure 
-    user authentication using JWT and efficient service management. A scalable database built with MongoDB is used to manage 
-    user profiles, service data, and booking information. Additionally, secure payment processing is implemented using 
-    Stripe API, offering a seamless and trustworthy experience for users.`,
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Stripe API"],
+    description: `Developed a home services booking platform connecting users with verified professionals for plumbing and electrical repairs. Enhanced user experience with 50% faster bookings using React.js frontend and optimized Node.js Express.js backend. Implemented secure JWT-based authentication and scalable MongoDB data storage. Modularized backend APIs to improve maintainability and reduce service overhead by 40%.`,
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT"]
   },
   {
-    title: "Portfolio Website",
+    title: "AI-Powered Automated Document Processing System",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: [ "Tailwind CSS", "React", "javascript"],
-  },
- 
+    description: `Built an AI-driven system for automated document classification, semantic search, and metadata extraction. Automated 90% of manual processing using SpaCy, RoBERTa, Qwen OCR, Textract, and Tesseract. Achieved 95% semantic search accuracy with SBERT and FAISS indexing.`,
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT","Textract", "SBERT"]
+  }
 ];
+
 
 export const CONTACT = {
   address: "7A,s1, Hansa Abhinav Apartments ,Tiruvottriyur,Chennai-600019 ",

@@ -6,6 +6,7 @@ import Technologies from './components/Technologies';
 import Education from './components/Education';
 import Projects from './components/Projects';
 import Contacts from './components/Contacts';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -22,9 +23,11 @@ function App() {
         <Hero/>
         <About/>
         <Technologies/>
+        <Experience/>
         <Education/>
         <Projects/>
         <Contacts/>
+
       </div>
 
     </div>

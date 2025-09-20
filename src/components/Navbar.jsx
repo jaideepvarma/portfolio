@@ -12,7 +12,7 @@ const Navbar = () => {
         <a href="https://www.linkedin.com/in/jaideep-d" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="hover:text-blue-600 transition-colors duration-200" />
         </a>
-        <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/jaideepvarma" target="_blank" rel="noopener noreferrer">
           <FaGithub className="hover:text-gray-600 transition-colors duration-200" />
         </a>
         <a href="https://www.instagram.com/jaideep3729/profilecard/?igsh=MXh3cGp5bGZ5anVsYw==" target="_blank" rel="noopener noreferrer">
